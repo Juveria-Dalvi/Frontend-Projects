@@ -1,0 +1,24 @@
+$bg-about: #f3f3f3;
+$about: #616161;
+$white: rgb(255, 255, 255);
+$shadow: rgba(0, 0, 0, 0.2);
+$hover-effect: rgb(255, 255, 241);
+$border: #a1a1a1;
+$sale-bg-sec3: #f9a190;
+$black: rgb(0, 0, 0);
+$p-about: #2f2f30;
+$footer: rgb(97, 157, 248);
+
+@import "header";
+@import "indexfile";
+@import "aboutfile";
+@import "blogfile";
+@import "dealsfile";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@import "mediaqueries";

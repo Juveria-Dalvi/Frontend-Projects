@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>DJ|Blog post</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css"
+    integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap" rel="stylesheet" />
+</head>
+
+<body>
+  <main id="blogfile">
+    <header>
+      <div class="header_wrapper">
+        <div class="logo_icon_wrapper">
+          <div class="logo">
+            <img src="./images/shopping logo.png" />
+          </div>
+
+          <div class="icon">
+            <a href="#" class="icon1-a"><i class="fas fa-shopping-cart"></i>
+              <span>Cart</span>
+            </a>
+            <a href="#" class="icon1-a"><i class="fas fa-user"></i>
+              <span>Guest</span>
+            </a>
+          </div>
+        </div>
+
+        <nav class="nav_search_wrapper">
+          <ul>
+            <li>
+              <a href="index.html">
+                <i class="fas fa-home"> </i>
+                <p>Home</p>
+              </a>
+            </li>
+
+            <li>
+              <a href="about.html"><i class="fas fa-clipboard-list"></i>
+                <p>About Us</p>
+              </a>
+            </li>
+
+            <div class="dropdown">
+              <i class="fas fa-bars"></i>
+              <a href="deals.html"> <i class="fas fa-caret-down"> </i></a>
+
+              <div class="dropdown-content">
+                <a href="#">Product 1</a>
+                <a href="#">Product 2 </a>
+                <a href="#">Product 3</a>
+                <a href="#">Product 4</a>
+              </div>
+              <a href="deals.html">
+                <p>DEAL's</p> <a href="deals.html"></a>
+            </div>
+
+            <li>
+              <a href="blog.html">
+                <i class="far fa-sticky-note"></i>
+                <p>blog</p>
+              </a>
+            </li>
+          </ul>
+          <!-- I DON'T WANT SEARCHBAR IN BLOG PAGE -->
+        </nav>
+      </div>
+    </header>
+    <!-- <b style="color: crimson">
+        <marquee behavior="" direction="">
+          The owner of this site is working she'll do this page soon..</marquee
+        ></b
+      > -->
+    <!-- <br /> -->
+    <h1>Basic Concepts</h1>
+    <section class="css" id="section-1">
+      <div class="basic-css">
+        <p id="heading-CSS">CSS</p>
+        <p id="intro-CSS">List of Basic CSS to make responsive-layouts</p>
+        <div class="list">
+          <ul>
+            <li>Margin</li>
+            <li>Padding</li>
+            <li>Position</li>
+            <li>Flex-box</li>
+            <li>Grid</li>
+            <li>Media-queries</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+    <section class="git" id="section-2">
+      <div class="git-basic">
+        <p id="heading-git">GIT</p>
+        <p id="intro-git">
+          Git is the free and open source distributed version control stytem
+          that's responsible for everything Github related that happens
+          locally on your computer. Working with Git on the command line can
+          be challenging for absolute begginer. To help with that, I’ve put
+          together a list of common Git commands to get started with, and
+          which is used all the time!!
+          <!-- what each one means,
+            and how to use them. -->
+        </p>
+        <p id="git-user-info">
+          opening git for first time!! Don't worry it's not that hard, all you
+          have to do is setup your email-ID and username
+        </p>
+        <div class="config">
+          <span id="config-info">Go to the folder > right click to open 'git bash here', if the
+            user is new then setup name and email :
+          </span>
+          <ul>
+            <li>$ git-config &nbsp; --global user.name bella hadid</li>
+            <li>
+              $ git-config &nbsp; --global user.email bellahadid@gmail.com
+            </li>
+          </ul>
+
+          <span id="config-info">This will show your data saved (which will contain your name and
+            email) :
+          </span>
+          <ul>
+            <li>$ git-config &nbsp; --list</li>
+          </ul>
+          <span id="config-info">Also you can check it by using these command lines :</span>
+          <ul>
+            <li>$ git-config &nbsp; user.name</li>
+          </ul>
+          <ul>
+            <li>$ git-config &nbsp; user.email</li>
+          </ul>
+
+          <span id="config-info">After configuring your email and name, run this command to check
+            if the repository s already contains .git (which will be a hidded
+            file in your folder) :</span>
+          <ul>
+            <li>$ git &nbsp; status</li>
+          </ul>
+
+          <span id="config-info">
+            If the above command gives error and says not a git repository,
+            then run below command which will create empty git repository with
+            hidden file which will track changes:</span>
+          <ul>
+            <li>$ git &nbsp; init</li>
+          </ul>
+
+          <span id="config-info">check the status after initialization :</span>
+          <ul>
+            <li>$ git &nbsp; status</li>
+          </ul>
+
+          <span id="config-info">Stage all the files using these command, OR use dot to stage all
+            files :</span>
+          <ul>
+            <li>$ git &nbsp; add &nbsp; --a</li>
+          </ul>
+          <ul>
+            <li>$ git &nbsp; add &nbsp; .</li>
+          </ul>
+
+          <span id="config-info">Use git status to check the file status, it will show some
+            changes if you add file :</span>
+          <ul>
+            <li>$ git &nbsp; status</li>
+          </ul>
+
+          <span id="config-info">Commit the files with THE "commit message" :</span>
+          <ul>
+            <li>$ git &nbsp; commit -m "removed a bug"</li>
+          </ul>
+
+          <span id="config-info">Use git status to check the file status, it will show some
+            changes if you commit file :</span>
+          <ul>
+            <li>$ git &nbsp; status</li>
+          </ul>
+
+          <span id="config-info">To see all commits use this command:</span>
+          <ul>
+            <li>$ git &nbsp; log</li>
+          </ul>
+
+          <span id="config-info">If you want to remove your tracked changes and delete .git hidden
+            repository use below command [NOTE:it will permanently remove
+            tracked changes] :</span>
+          <ul>
+            <li>$ rm &nbsp; -rf.git</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+    <section class="JavaScript" id="section-3">
+      <p>JavaScript</p>
+    </section>
+  </main>
+  <footer>
+
+    all right reserved &copy;
+    <a href="https://github.com/JuveriaD"> Juveria Javed Dalvi</a>
+
+    
+
+  </footer>
+
+  <!-- <script src="/JavaScript/tut1.js"></script> -->
+  <!-- <script src="/JavaScript/tut2.js"></script> -->
+  <!-- <script src="/JavaScript/tut3.js"></script> -->
+  <!-- <script src="/JavaScript/tut4.js"></script> -->
+  <!-- <script src="/JavaScript/tut5.js"></script> -->
+  <script src="/JavaScript/tut6.js"></script>
+
+</body>
+
+</html>

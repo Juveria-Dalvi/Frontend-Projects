@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Shopping site</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <link rel="stylesheet" type="text/css" href="bootstrap.min.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!--this is taken from W3 school and it is used to make website responsive-->
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.6.3/css/all.css"
+      integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/"
+      crossorigin="anonymous"
+    />
+    <!--this is also taken from w3school it help to include icons in our web page-->
+  </head>
+  <body>
+    <!--header section-->
+
+    <header>
+      <div class="header_wrapper">
+        <div class="logo_icon_wrapper">
+          <div class="logo">
+            <img src=".\shopping site\images\shopping logo.jpg" />
+          </div>
+
+          <div class="icon">
+            <a href="#" class="icon1-a"
+              ><i class="fas fa-shopping-cart"></i><span>Cart</span></a
+            >
+            <a href="#" class="icon1-a"
+              ><i class="fas fa-user"></i><span>Guest</span></a
+            >
+          </div>
+        </div>
+
+        <div class="nav_search_wrapper">
+          <div class="navigation">
+            <ul>
+              <li><a href="#">HOME</a></li>
+              <li><a href="#">NEW ARRIVALS</a></li>
+              <li><a href="#">DEALS</a></li>
+              <li><a href="#">MAKE-UP</a></li>
+              <li><a href="#">TIPS & TRICKS</a></li>
+            </ul>
+          </div>
+          <div class="search-btn">
+            <input type="text" placeholder="search related to site" />
+            <a href="#"> <i class="fa fa-search" aria-hidden="true"></i></a>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!--END of header section-->
+
+    <!-----slider image starts here----->
+    <div class="slider_image">
+      <div class="main_image">
+        <img src="C:.\shopping site\images\slider image.jpg" />
+      </div>
+    </div>
+    <!------slider image starts here----->
+
+    <!-----start category--->
+
+    <div class="categories_pic">
+      <div class="categories_wrapper">
+        <div>
+          <span><i class="fas fa-angle-double-down"></i> </span>
+          <h2>CATEGORIES</h2>
+        </div>
+
+        <div class="pics">
+          <div class="first">
+            <a href="#">
+              <img src="images/kids%20gown.jpg" />
+              <span>Kid's Section</span>
+            </a>
+          </div>
+
+          <div class="second">
+            <a href="#">
+              <img src="./images/color%20marker.jpg" />
+              <span>Stationary</span>
+            </a>
+          </div>
+
+          <div class="third">
+            <a href="#">
+              <img src="./images/T-shirt.jpg" />
+              <span>Men's Section</span>
+            </a>
+          </div>
+
+          <div class="fourth">
+            <a href="#">
+              <img src="./images/wedding%20dress.jpg" />
+              <span>WomenSection</span>
+            </a>
+          </div>
+
+          <div class="fifth">
+            <a href="#">
+              <img src="./images/giselle%20wedding%20shoe.jpg" />
+              <span>Foot wears</span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!----- end of category--->
+  </body>
+</html>
