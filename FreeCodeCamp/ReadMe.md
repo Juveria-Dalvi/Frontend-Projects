@@ -1,7 +1,7 @@
 # FreeCodeCamp-
 ### Responsive webdesign
 
-<img src="images/FCC.PNG" alt="certificate" />
+<img src="images/Certificate.png" alt="certificate" />
 
 [1 : Tribute-page](https://Juveria-Dalvi.github.io/FreeCodeCamp-/Tribute%20page/)
 
