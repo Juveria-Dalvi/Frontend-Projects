@@ -1,0 +1,91 @@
+#indexfile {
+  // index.html file css goes here
+  .banner {
+    width: 100%;
+
+    img {
+      width: 100%;
+      display: block;
+    }
+  }
+  .section-2 {
+    margin: 1% 2%;
+    h1 {
+      margin: 4% 0%;
+      display: inline-block;
+      font-family: "Oswald", sans-serif;
+      font-weight: 500;
+    }
+    .cat-container {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      align-content: center;
+      justify-content: center;
+      align-items: center;
+      img {
+        width: 124px;
+        height: 124px;
+        object-fit: cover;
+        border-radius: 10px;
+        margin: 7px 8px 0px 5px;
+        display: block;
+      }
+      a {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-content: center;
+        justify-content: center;
+        align-items: center;
+        text-decoration: none;
+        margin: 1%;
+        .overlay-text {
+          position: relative;
+
+          background: rgb(0, 0, 0);
+          background: rgba(0, 0, 0, 0.5); /* Black see-through */
+          color: #f1f1f1;
+          text-align: center;
+
+          transition: 0.5s ease;
+          opacity: 0;
+          color: $white;
+          padding: 9px 7px;
+
+          width: 124px;
+          overflow: hidden;
+          border-radius: 5px;
+          bottom: 35px;
+        }
+      }
+    }
+    .cat-container:hover .overlay-text {
+      opacity: 1;
+    }
+  }
+
+  .section-3 {
+    width: 100%;
+    background-color: $sale-bg-sec3;
+    img {
+      display: block;
+      width: 100%;
+      height: 200px;
+      object-fit: contain;
+    }
+  }
+}
+footer {
+  padding: 8px 5%;
+  text-align: center;
+  background-color: $black;
+  color: $hover-effect;
+  text-decoration: none;
+  font-size: 13px;
+  font-family: "Open Sans", sans-serif;
+  a {
+    color: $footer;
+    text-decoration: none;
+  }
+}
