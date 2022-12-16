@@ -3,14 +3,14 @@
 
 <img src="images/Certificate.png" alt="certificate" />
 
-[1 : Tribute-page](https://Juveria-Dalvi.github.io/FreeCodeCamp-/Tribute%20page/)
+[1 : Tribute-page](https://Juveria-Dalvi.github.io/Projects/FreeCodeCamp-/Tribute%20page/)
 
 
-[2 : Survey-form](https://Juveria-Dalvi.github.io/FreeCodeCamp-/Survey%20form/)
+[2 : Survey-form](https://Juveria-Dalvi.github.io/Projects/FreeCodeCamp-/Survey%20form/)
 
-[3 : Product-Landing-Page](https://Juveria-Dalvi.github.io/FreeCodeCamp-/Landing%20page/)
+[3 : Product-Landing-Page](https://Juveria-Dalvi.github.io/Projects/FreeCodeCamp-/Landing%20page/)
 
-[4 : Technical Documentation Page](https://Juveria-Dalvi.github.io/FreeCodeCamp-/Technical%20Documentation%20Page/)
+[4 : Technical Documentation Page](https://Juveria-Dalvi.github.io/Projects/FreeCodeCamp-/Technical%20Documentation%20Page/)
 
-[5 : Personal Portfolio](https://Juveria-Dalvi.github.io/FreeCodeCamp-/Personal%20Portfolio/)
+[5 : Personal Portfolio](https://Juveria-Dalvi.github.io/Projects/FreeCodeCamp-/Personal%20Portfolio/)
 
