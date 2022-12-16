@@ -1,3 +1,1 @@
-## Photo-blog
-
-https://Juveria-Dalvi.github.io/Photo-blog/
+## [Photo-blog] (https://Juveria-Dalvi.github.io/Photo-blog/)
