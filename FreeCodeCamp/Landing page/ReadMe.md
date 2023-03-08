@@ -1,5 +1,6 @@
 # Product Landind page
-<img src="images/Product-Landing-Page.png" alt="Product Landind page" style="height: 411px; width:400px;"/>
+[Click here - live URL](https://juveria-dalvi.github.io/Projects/FreeCodeCamp/Landing%20page/index.html)
+<img src="images/Product-Landing-Page.png" alt="Product Landind page"/>
 
 
 ## Successfully passed tests ✅
