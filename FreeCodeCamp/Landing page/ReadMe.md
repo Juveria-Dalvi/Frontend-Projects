@@ -1,5 +1,5 @@
 # Product Landind page
-[Click here - live URL](https://juveria-dalvi.github.io/Projects/FreeCodeCamp/Landing%20page/index.html)
+[Click here - live URL](https://juveria-dalvi.github.io/Frontend%20Projects/FreeCodeCamp/Landing%20page/index.html)
 <img src="images/Product-Landing-Page.png" alt="Product Landind page"/>
 
 
