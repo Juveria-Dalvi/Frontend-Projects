@@ -1,1 +1,1 @@
-[Start Game](https://juveria-dalvi.github.io/Projects/Guessing%20game/index.html)
+[Start Game](https://juveria-dalvi.github.io/Frontend-Projects/Guessing%20game/index.html)
