@@ -1,1 +1,1 @@
-[Photo-blog](https://Juveria-Dalvi.github.io/Projects/Photo-blog/)
+[Photo-blog](https://Juveria-Dalvi.github.io/Frontend-Projects/Photo-blog/)
