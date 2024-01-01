@@ -1,3 +1,3 @@
-[Pricing-Panel](https://Juveria-Dalvi.github.io/Projects/Pricing-Panel/index.html)
+[Pricing-Panel](https://Juveria-Dalvi.github.io/Frontend-Projects/Pricing-Panel/index.html)
 
 Web-Development bootcamp | Udemy 
