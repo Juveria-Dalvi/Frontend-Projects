@@ -4,4 +4,4 @@
 
 
 ### 🛰️live site URL- 
- https://Juveria-Dalvi.github.io/Projects/QR%20code%20component/
+ https://Juveria-Dalvi.github.io/Frontend-Projects/QR%20code%20component/
