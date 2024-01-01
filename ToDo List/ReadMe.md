@@ -1,1 +1,1 @@
-[Live](https://Juveria-Dalvi.github.io/Projects/ToDo%20List)
+[Live](https://Juveria-Dalvi.github.io/Frontend-Projects/ToDo%20List)
