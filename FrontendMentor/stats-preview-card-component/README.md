@@ -3,4 +3,4 @@
 
 
 ## 🛰️live site URL- 
- https://Juveria-Dalvi.github.io/Frontend-Projects/stats-preview-card-component
+ https://Juveria-Dalvi.github.io/Frontend-Projects/FrontendMentor/stats-preview-card-component
